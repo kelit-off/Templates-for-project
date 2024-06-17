@@ -36,3 +36,5 @@ function autoload_framework($class_name) {
 spl_autoload_register('autoload_framework');
 
 $page = new Page();
+
+$mysql = mysqli_connect($CONFIG["MYSQLI_SERVER"], $CONFIG["MYSQLI_USER"], $CONFIG["MYSQLI_PASSWORD"], $CONFIG["MYSQLI_BASE"]);

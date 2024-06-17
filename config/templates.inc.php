@@ -1,6 +1,6 @@
 <?php
 // Configuration Base de donnée
-$CONFIG['MYSQL_HOST'] = 'localhost';
+$CONFIG['MYSQL_SERVER'] = 'localhost';
 $CONFIG['MYSQL_USER'] = '';
-$CONFIG['MYSQL_PASS'] = '';
-$CONFIG['MYSQL_DB'] = '';
+$CONFIG['MYSQLI_PASSWORD'] = '';
+$CONFIG['MYSQL_BASE'] = '';
